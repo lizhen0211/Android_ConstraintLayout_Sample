@@ -19,7 +19,8 @@ public class MainActivity extends Activity {
     }
 
     public void onCompareWithRLClick(View view) {
-
+        Intent intent = new Intent(MainActivity.this, CompareWithRelativeLayoutActivity.class);
+        startActivity(intent);
     }
 
     public void onSetSizeAsARatio(View view) {
