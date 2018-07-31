@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicAttrActivity">
+    <!--该控件的左部与父布局左部对齐-->
+    <!--该控件的上部侧与父布局上部对齐-->
+    <TextView
+        android:id="@+id/textview_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--该控件的左部与textview_1右部对齐-->
+    <!--该控件的上部与textview_1下部对齐-->
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview_2"
+        app:layout_constraintLeft_toRightOf="@id/textview_1"
+        app:layout_constraintTop_toBottomOf="@id/textview_1" />
+    <!--该控件居中显示-->
+    <TextView
+        android:id="@+id/textview_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--以textview_3为基线-->
+    <TextView
+        android:id="@+id/textview_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview_4"
+        app:layout_constraintBaseline_toBaselineOf="@id/textview_3"
+        app:layout_constraintLeft_toRightOf="@id/textview_3"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
