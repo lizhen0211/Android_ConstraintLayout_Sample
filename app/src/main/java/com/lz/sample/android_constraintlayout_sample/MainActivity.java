@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
     }
 
     public void onChainClick(View view) {
-
+        Intent intent = new Intent(MainActivity.this, ChainActivity.class);
+        startActivity(intent);
     }
 }

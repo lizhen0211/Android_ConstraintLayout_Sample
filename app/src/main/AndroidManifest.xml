@@ -24,7 +24,10 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SetSizeAsARatioActivity"
-            android:label="@string/title_activity_set_size_as_aratio"></activity>
+            android:label="@string/title_activity_set_size_as_aratio" />
+        <activity
+            android:name=".ChainActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
