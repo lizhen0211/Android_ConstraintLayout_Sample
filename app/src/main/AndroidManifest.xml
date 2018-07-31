@@ -22,6 +22,9 @@
         <activity
             android:name=".CompareWithRelativeLayoutActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetSizeAsARatioActivity"
+            android:label="@string/title_activity_set_size_as_aratio"></activity>
     </application>
 
 </manifest>

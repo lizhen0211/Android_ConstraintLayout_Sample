@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetSizeAsARatioActivity">
+    <!--设置match_contraint，即0，让约束来控制布局宽高。-->
+    <!--高宽比：app:layout_constraintDimensionRatio="16:6"-->
+    <!--宽高比：app:layout_constraintDimensionRatio="W,16:6"-->
+    <!--高宽比：app:layout_constraintDimensionRatio="H,16:6"-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="textview"
+        app:layout_constraintDimensionRatio="H,16:6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

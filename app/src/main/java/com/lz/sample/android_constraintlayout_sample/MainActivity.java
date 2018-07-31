@@ -24,7 +24,8 @@ public class MainActivity extends Activity {
     }
 
     public void onSetSizeAsARatio(View view) {
-
+        Intent intent = new Intent(MainActivity.this, SetSizeAsARatioActivity.class);
+        startActivity(intent);
     }
 
     public void onChainClick(View view) {
