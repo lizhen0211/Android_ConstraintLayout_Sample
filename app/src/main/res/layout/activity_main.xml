@@ -42,5 +42,13 @@
             android:layout_marginTop="30dp"
             android:onClick="onChainClick"
             android:text="用链控制线性组" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:onClick="onGuidelineClick"
+            android:text="引导线" />
     </LinearLayout>
 </ScrollView>

@@ -32,4 +32,9 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(MainActivity.this, ChainActivity.class);
         startActivity(intent);
     }
+
+    public void onGuidelineClick(View view) {
+        Intent intent = new Intent(MainActivity.this, GuidelineActivity.class);
+        startActivity(intent);
+    }
 }
