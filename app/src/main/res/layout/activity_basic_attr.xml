@@ -59,4 +59,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
+    <!--Circular positioning-->
+    <TextView
+        android:id="@+id/textview_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview_6"
+        app:layout_constraintCircle="@+id/textview_3"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="50dp" />
 </android.support.constraint.ConstraintLayout>
